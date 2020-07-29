@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [GoRestAPITest]">
+  <listeners>
+    <listener class-name="utilities.Listeners"/>
+  </listeners>
+  <test thread-count="5" name="GoRestAPITest(failed)">
+    <classes>
+      <class name="testPackage.TC003_Delete_User">
+        <methods>
+          <include name="checkResponseBody"/>
+          <include name="deleteUser"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- testPackage.TC003_Delete_User -->
+    </classes>
+  </test> <!-- GoRestAPITest(failed) -->
+</suite> <!-- Failed suite [GoRestAPITest] -->

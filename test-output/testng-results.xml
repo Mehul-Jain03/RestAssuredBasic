@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="17" passed="16">
+  <reporter-output>
+  </reporter-output>
+  <suite name="GoRestAPITest" duration-ms="14637" started-at="2020-07-27T05:16:47Z" finished-at="2020-07-27T05:17:02Z">
+    <groups>
+    </groups>
+    <test name="GoRestAPITest" duration-ms="14637" started-at="2020-07-27T05:16:47Z" finished-at="2020-07-27T05:17:02Z">
+      <class name="testPackage.TC003_Delete_User">
+        <test-method status="PASS" signature="deleteUser()[pri:0, instance:testPackage.TC003_Delete_User@91161c7]" name="deleteUser" is-config="true" duration-ms="4088" started-at="2020-07-27T05:16:58Z" finished-at="2020-07-27T05:17:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteUser -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:testPackage.TC003_Delete_User@91161c7]" name="setup" is-config="true" duration-ms="0" started-at="2020-07-27T05:16:58Z" finished-at="2020-07-27T05:16:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="checkContentEncoding()[pri:0, instance:testPackage.TC003_Delete_User@91161c7]" name="checkContentEncoding" duration-ms="0" started-at="2020-07-27T05:17:02Z" finished-at="2020-07-27T05:17:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkContentEncoding -->
+        <test-method status="PASS" signature="checkContentType()[pri:0, instance:testPackage.TC003_Delete_User@91161c7]" name="checkContentType" duration-ms="0" started-at="2020-07-27T05:17:02Z" finished-at="2020-07-27T05:17:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkContentType -->
+        <test-method status="PASS" signature="checkServer()[pri:0, instance:testPackage.TC003_Delete_User@91161c7]" name="checkServer" duration-ms="0" started-at="2020-07-27T05:17:02Z" finished-at="2020-07-27T05:17:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkServer -->
+        <test-method status="FAIL" signature="checkResponseBody()[pri:0, instance:testPackage.TC003_Delete_User@91161c7]" name="checkResponseBody" duration-ms="0" started-at="2020-07-27T05:17:02Z" finished-at="2020-07-27T05:17:02Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertTrue(Assert.java:44)
+at org.testng.Assert.assertTrue(Assert.java:54)
+at testPackage.TC003_Delete_User.checkResponseBody(TC003_Delete_User.java:44)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResponseBody -->
+        <test-method status="PASS" signature="checkStatusCode()[pri:0, instance:testPackage.TC003_Delete_User@91161c7]" name="checkStatusCode" duration-ms="16" started-at="2020-07-27T05:17:02Z" finished-at="2020-07-27T05:17:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusCode -->
+        <test-method status="PASS" signature="checkStatusLine()[pri:0, instance:testPackage.TC003_Delete_User@91161c7]" name="checkStatusLine" duration-ms="0" started-at="2020-07-27T05:17:02Z" finished-at="2020-07-27T05:17:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusLine -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testPackage.TC003_Delete_User@91161c7]" name="tearDown" is-config="true" duration-ms="0" started-at="2020-07-27T05:17:02Z" finished-at="2020-07-27T05:17:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testPackage.TC003_Delete_User -->
+      <class name="testPackage.TC002_Post_User">
+        <test-method status="PASS" signature="getAllUsers()[pri:0, instance:testPackage.TC002_Post_User@5c3bd550]" name="getAllUsers" is-config="true" duration-ms="3931" started-at="2020-07-27T05:16:54Z" finished-at="2020-07-27T05:16:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAllUsers -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:testPackage.TC002_Post_User@5c3bd550]" name="setup" is-config="true" duration-ms="0" started-at="2020-07-27T05:16:54Z" finished-at="2020-07-27T05:16:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="checkContentType()[pri:0, instance:testPackage.TC002_Post_User@5c3bd550]" name="checkContentType" duration-ms="0" started-at="2020-07-27T05:16:58Z" finished-at="2020-07-27T05:16:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkContentType -->
+        <test-method status="PASS" signature="checkResponseBody()[pri:0, instance:testPackage.TC002_Post_User@5c3bd550]" name="checkResponseBody" duration-ms="0" started-at="2020-07-27T05:16:58Z" finished-at="2020-07-27T05:16:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResponseBody -->
+        <test-method status="PASS" signature="checkStatusCode()[pri:0, instance:testPackage.TC002_Post_User@5c3bd550]" name="checkStatusCode" duration-ms="0" started-at="2020-07-27T05:16:58Z" finished-at="2020-07-27T05:16:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusCode -->
+        <test-method status="PASS" signature="checkServer()[pri:0, instance:testPackage.TC002_Post_User@5c3bd550]" name="checkServer" duration-ms="0" started-at="2020-07-27T05:16:58Z" finished-at="2020-07-27T05:16:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkServer -->
+        <test-method status="PASS" signature="checkStatusLine()[pri:0, instance:testPackage.TC002_Post_User@5c3bd550]" name="checkStatusLine" duration-ms="0" started-at="2020-07-27T05:16:58Z" finished-at="2020-07-27T05:16:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusLine -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testPackage.TC002_Post_User@5c3bd550]" name="tearDown" is-config="true" duration-ms="0" started-at="2020-07-27T05:16:58Z" finished-at="2020-07-27T05:16:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testPackage.TC002_Post_User -->
+      <class name="testPackage.TC001_Get_User">
+        <test-method status="PASS" signature="setup()[pri:0, instance:testPackage.TC001_Get_User@5e3a8624]" name="setup" is-config="true" duration-ms="47" started-at="2020-07-27T05:16:47Z" finished-at="2020-07-27T05:16:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="getAllUsers()[pri:0, instance:testPackage.TC001_Get_User@5e3a8624]" name="getAllUsers" is-config="true" duration-ms="6054" started-at="2020-07-27T05:16:47Z" finished-at="2020-07-27T05:16:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAllUsers -->
+        <test-method status="PASS" signature="checkContentEncoding()[pri:0, instance:testPackage.TC001_Get_User@5e3a8624]" name="checkContentEncoding" duration-ms="16" started-at="2020-07-27T05:16:54Z" finished-at="2020-07-27T05:16:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkContentEncoding -->
+        <test-method status="PASS" signature="checkContentType()[pri:0, instance:testPackage.TC001_Get_User@5e3a8624]" name="checkContentType" duration-ms="15" started-at="2020-07-27T05:16:54Z" finished-at="2020-07-27T05:16:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkContentType -->
+        <test-method status="PASS" signature="checkResposeBody()[pri:0, instance:testPackage.TC001_Get_User@5e3a8624]" name="checkResposeBody" duration-ms="16" started-at="2020-07-27T05:16:54Z" finished-at="2020-07-27T05:16:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResposeBody -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testPackage.TC001_Get_User@5e3a8624]" name="tearDown" is-config="true" duration-ms="0" started-at="2020-07-27T05:16:54Z" finished-at="2020-07-27T05:16:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="checkStatusCode()[pri:0, instance:testPackage.TC001_Get_User@5e3a8624]" name="checkStatusCode" duration-ms="0" started-at="2020-07-27T05:16:54Z" finished-at="2020-07-27T05:16:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusCode -->
+        <test-method status="PASS" signature="checkServer()[pri:0, instance:testPackage.TC001_Get_User@5e3a8624]" name="checkServer" duration-ms="0" started-at="2020-07-27T05:16:54Z" finished-at="2020-07-27T05:16:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkServer -->
+        <test-method status="PASS" signature="checkStatusLine()[pri:0, instance:testPackage.TC001_Get_User@5e3a8624]" name="checkStatusLine" duration-ms="0" started-at="2020-07-27T05:16:54Z" finished-at="2020-07-27T05:16:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusLine -->
+      </class> <!-- testPackage.TC001_Get_User -->
+    </test> <!-- GoRestAPITest -->
+  </suite> <!-- GoRestAPITest -->
+</testng-results>

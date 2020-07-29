@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="GoRestAPITest">
+<listeners>
+	<listener class-name="utilities.Listeners" />
+</listeners>
+  <test thread-count="10" name="GoRestAPITest">
+    <classes>
+      <class name="testPackage.TC001_Get_User"/>
+      <class name="testPackage.TC002_Post_User"/>
+      <class name="testPackage.TC003_Delete_User"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
